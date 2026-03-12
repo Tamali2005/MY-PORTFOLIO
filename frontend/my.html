@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  
+ 
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Stars -->
+<canvas class="stars-canvas" id="stars"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">TK</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="hero-content">
+    <p class="hero-tag">✦ &nbsp;Welcome to my universe&nbsp; ✦</p>
+    <h1 class="hero-name">TAMALI KHAN</h1>
+    <p class="hero-title">Web Developer &nbsp;/&nbsp; <span>Creative Coder</span></p>
+    <p class="hero-desc">I craft immersive digital experiences where elegant code meets thoughtful design. Every pixel, every interaction, intentional.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View My Work</a>
+      <a href="#contact" class="btn-outline">Let's Talk</a>
+    </div>
+  </div>
+  <div class="scroll-hint">
+    <span>SCROLL</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <p class="section-label reveal">01. ABOUT</p>
+  <h2 class="section-title reveal">Who I Am</h2>
+  <div class="about-grid">
+    <div class="about-visual reveal">
+      <div class="avatar-wrap">
+        <div class="avatar-ring"></div>
+        <div class="avatar-inner"><img src="myimg.png" alt=""></div>
+      </div>
+    </div>
+    <div class="about-text reveal">
+      <p>Hey! I'm <strong>TAMALI</strong> — a passionate developer who loves building things that live on the internet. I care deeply about crafting experiences that are both beautiful and functional.</p>
+      <p>When I'm not writing code, I'm exploring new design trends, contributing to open-source projects, or experimenting with creative tools.</p>
+      <p>I specialize in <strong>modern web technologies</strong> and love working at the intersection of design and engineering.</p>
+      <div class="tech-chips">
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Python</span>
+        <span class="chip">Flask</span>
+        <span class="chip">Git</span>
+        <span class="chip">MYSQL</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label reveal">02. SKILLS</p>
+  <h2 class="section-title reveal">What I Do</h2>
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <div class="skill-icon">🎨</div>
+      <div class="skill-name">Frontend Dev
+        <br>
+        <br>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+      
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90%"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">⚙️</div>
+      <div class="skill-name">Backend Dev
+        <br><br>
+        <ul>
+            <li>Python</li>
+            <li>Flask</li>
+        </ul>
+      </div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="50%"></div></div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-icon">🗄️</div>
+      <div class="skill-name">Database Design
+        <br><br>
+        <ul>
+            <li>MySQL</li>
+        </ul>
+      </div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80%"></div></div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-label reveal">03. PROJECTS</p>
+  <h2 class="section-title reveal">Featured Work</h2>
+  <div class="projects-grid">
+
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <div class="project-thumb-bg" style="background:linear-gradient(135deg,#1a1a4e,#6b21a8);"></div>
+        <div class="project-num"><img src="appimg.png" alt="Project Image"></div>
+        <span class="project-badge">Web App</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title">Student Complaint Management System</h3>
+        <p class="project-desc">A web application built with Flask and vanila JS Features real-time data and a beautiful dashboard interface.</p>
+        <div class="project-links">
+          <a href="https://techsprint-project-2-0-3mfz.vercel.app/" class="project-link">→ Live Demo</a>
+          <a href="https://github.com/Tamali2005/techsprint-Project-2.0" class="project-link">→ GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <div class="project-thumb-bg" style="background:linear-gradient(135deg,#2d1b69,#a21caf);"></div>
+        <div class="project-num">02</div>
+        <span class="project-badge">API</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title">Project Beta</h3>
+        <p class="project-desc">RESTful API service with authentication, rate limiting, and comprehensive documentation using Swagger.</p>
+        <div class="project-links">
+          <a href="#" class="project-link">→ Live Demo</a>
+          <a href="#" class="project-link">→ GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-thumb">
+        <div class="project-thumb-bg" style="background:linear-gradient(135deg,#a21caf,#ec4899);"></div>
+        <div class="project-num">03</div>
+        <span class="project-badge">ML / AI</span>
+      </div>
+      <div class="project-body">
+        <h3 class="project-title">Project Gamma</h3>
+        <p class="project-desc">Machine learning powered recommendation engine with an intuitive front-end interface and real-time predictions.</p>
+        <div class="project-links">
+          <a href="#" class="project-link">→ Live Demo</a>
+          <a href="#" class="project-link">→ GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <p class="section-label reveal" style="justify-content:center;">04. CONTACT</p>
+  <h2 class="section-title reveal">Get In Touch</h2>
+  <p class="contact-subtitle reveal">Have a project in mind or just want to say hello? My inbox is always open — let's build something amazing together.</p>
+  <form class="contact-form reveal" onsubmit="return false;">
+    <div class="form-row">
+      <input type="text" class="form-input" placeholder="Your Name" />
+      <input type="email" class="form-input" placeholder="Your Email" />
+    </div>
+    <input type="text" class="form-input" placeholder="Subject" />
+    <textarea class="form-textarea" placeholder="Your Message..."></textarea>
+    <button type="submit" class="form-submit">Send Message ✦</button>
+  </form>
+  <div class="social-row reveal">
+    <a href="https://github.com/Tamali2005" class="social-link" title="GitHub">⌥</a>
+    <a href="https://www.linkedin.com/in/tamali-khan-51981830a/" class="social-link" title="LinkedIn">in</a>
+    <a href="https://x.com/TamaliKhan" class="social-link" title="Twitter">✕</a>
+    <a href="mailto:tamalikhan2021@gmail.com" class="social-link" title="Email">@</a>
+  </div>
+</section>
+
+<footer>
+  Crafted with <span>♥</span> by <strong>Tamali Khan</strong> &nbsp;·&nbsp; <span>2026</span>
+</footer>
+
+<script>
+  // --- Cursor ---
+  const cursor = document.getElementById('cursor');
+  const ring = document.getElementById('cursorRing');
+  document.addEventListener('mousemove', e => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top  = e.clientY + 'px';
+    setTimeout(()=>{ ring.style.left = e.clientX+'px'; ring.style.top = e.clientY+'px'; }, 80);
+  });
+
+  // --- Stars ---
+  const canvas = document.getElementById('stars');
+  const ctx = canvas.getContext('2d');
+  let stars = [];
+  function resize(){ canvas.width=innerWidth; canvas.height=innerHeight; }
+  function initStars(){
+    stars=[];
+    for(let i=0;i<180;i++) stars.push({
+      x:Math.random()*canvas.width, y:Math.random()*canvas.height,
+      r:Math.random()*1.2+.2, o:Math.random(), d:Math.random()*.0005+.0002
+    });
+  }
+  function drawStars(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    stars.forEach(s=>{
+      s.o += s.d; if(s.o>1||s.o<0) s.d*=-1;
+      ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
+      ctx.fillStyle=`rgba(200,184,240,${s.o})`; ctx.fill();
+    });
+    requestAnimationFrame(drawStars);
+  }
+  window.addEventListener('resize',()=>{resize();initStars();});
+  resize(); initStars(); drawStars();
+
+  // --- Scroll reveal ---
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold:.15 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // --- Skill bars on reveal ---
+  const barObserver = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if(e.isIntersecting){
+        e.target.querySelectorAll('.skill-bar-fill').forEach(bar=>{
+          bar.style.width = bar.dataset.width;
+        });
+      }
+    });
+  }, { threshold:.3 });
+  document.querySelectorAll('#skills').forEach(el=>barObserver.observe(el));
+</script>
+</body>
+</html>
